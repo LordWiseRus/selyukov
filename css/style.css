@@ -3607,14 +3607,16 @@ div[class*='col-'][data-lpbuilder-swiper-slide-to] > div { cursor: pointer; }
     position: absolute;
     text-align: center;
     border-radius: 50%;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
 }
 .lpbuilder-photostack-prev::after {
     content: '\f104';
+    font-weight: 900;
     padding-right: 2px;
 }
 .lpbuilder-photostack-next::after {
     content: '\f105';
+    font-weight: 900;
     padding-left: 2px;
 }
 
@@ -4510,11 +4512,12 @@ div[class*='col-'] .image-block-container img ~ img {
     color: #ffffff;
     font-size: 14px;
     content: '\f002';
+    font-weight: 900;
     line-height: 32px;
     position: relative;
     border-radius: 50%;
     background-color: #e74c3c;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
 
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
@@ -4538,6 +4541,7 @@ div[class*='col-'] .image-block-container img ~ img {
 
 .fancybox.fancybox-video::after {
     content: '\f04b';
+    font-weight: 900;
     padding-left: 2px;
 }
 
@@ -4606,10 +4610,11 @@ div[class*='col-'] .image-block-container img ~ img {
     color: #ffffff;
     font-size: 14px;
     content: '\f065';
+    font-weight: 900;
     line-height: 32px;
     border-radius: 50%;
     background-color: #e74c3c;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
 
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
@@ -5601,10 +5606,11 @@ ul.select-menu-list li {
     bottom: 10px;
     color: #121212;
     content: '\f0dc';
+    font-weight: 900;
     text-align: right;
     line-height: 24px;
     position: absolute;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     background-color: transparent;
 
     -webkit-transition: all 0s ease-in-out;
@@ -5643,10 +5649,11 @@ ul.select-menu-list li {
     right: 10px;
     font-size: 13px;
     content: '\f021';
+    font-weight: 900;
     margin-top: -12px;
     line-height: 24px;
     position: absolute;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
 }
 .form-block-container button.add-spin::before {
     opacity: 1;
@@ -7118,12 +7125,12 @@ audio {
     line-height: 48px;
     position: absolute;
     border-radius: 50%;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
 }
-.mejs-controls .mejs-play button::after { content: '\f04b'; padding-left: 5px; }
-.mejs-controls .mejs-pause button::after { content: '\f04c'; }
-.mejs-controls .mejs-mute button::after { content: '\f028'; }
-.mejs-controls .mejs-unmute button::after { content: '\f026'; }
+.mejs-controls .mejs-play button::after { content: '\f04b'; font-weight: 900; padding-left: 5px; }
+.mejs-controls .mejs-pause button::after { content: '\f04c'; font-weight: 900; }
+.mejs-controls .mejs-mute button::after { content: '\f028'; font-weight: 900; }
+.mejs-controls .mejs-unmute button::after { content: '\f026'; font-weight: 900; }
 
 /* Hover
 --------------------------------------------------------- */
@@ -8331,14 +8338,16 @@ audio {
     height: 100%;
     line-height: 30px;
     position: absolute;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
 }
 .ui-datepicker-next::after {
     content: '\f105';
+    font-weight: 900;
     padding-left: 2px;
 }
 .ui-datepicker-prev::after {
     content: '\f104';
+    font-weight: 900;
     padding-right: 2px;
 }
 
@@ -8791,13 +8800,14 @@ audio {
     font-size: 20px;
     padding: 21px 0;
     content: '\f102';
+    font-weight: 900;
     line-height: 19px;
     position: absolute;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
 }
 .accordion-block-container .panel-title a.collapsed { color: #121212; }
-.accordion-block-container .panel-title a.collapsed::after { content: '\f103'; }
-.accordion-block-container .panel-title a:hover { background-color: #ebebeb; }
+.accordion-block-container .panel-title a.collapsed::after { content: '\f103'; font-weight: 900; }
+.accordion-block-container .panel-title a:hover { background-color: #ebebeb; font-weight: 900; }
 
 
 
@@ -10254,9 +10264,10 @@ ul.nav-tabs > li.tab-button > a:hover::after { opacity: 1; }
     color: #121212;
     font-size: 18px;
     content: '\f10d';
+    font-weight: 900;
     line-height: 18px;
     position: absolute;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
 }
 
 
@@ -10271,9 +10282,10 @@ ul.nav-tabs > li.tab-button > a:hover::after { opacity: 1; }
     color: #121212;
     font-size: 18px;
     content: '\f10d';
+    font-weight: 900;
     line-height: 18px;
     position: absolute;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
 }
 
 
@@ -10430,11 +10442,12 @@ ul.nav-tabs > li.tab-button > a:hover::after { opacity: 1; }
     color: #515151;
     font-size: 28px;
     content: '\f10d';
+    font-weight: 900;
     line-height: 28px;
     position: absolute;
     text-align: center;
     margin-left: -14px;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
 }
 
 

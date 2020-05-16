@@ -1515,7 +1515,7 @@ jQuery(document).ready(function () {
                 media: {}
             },
             afterShow: function () {
-                jQuery('<a href="javascript:void(0)" title="View Full Size" class="expander"></a>').appendTo(this.inner).on('click', function () {
+                jQuery('<a href="javascript:void(0)" title="Полный размер" class="expander"></a>').appendTo(this.inner).on('click', function () {
                     jQuery.fancybox.toggle();
                 });
             }

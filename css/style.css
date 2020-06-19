@@ -13087,3 +13087,12 @@ a#setсookieph:hover{background:rgba(219,241,254, 0.84) url('data:image/png;base
 				display:none;
 			}
 }
+
+/* ОСОБЫЕ ПЕРСОНАЛЬНЫЕ СТИЛИ
+-------------------------------------------------------------------------- */
+
+.work-status {
+    font-size: 10px;
+    line-height: 0px;
+    margin-top: -20px;
+}

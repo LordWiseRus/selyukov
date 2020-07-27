@@ -1,0 +1,7 @@
+User-agent: *
+
+Host: https://selyukov.ru
+
+Disallow: /404.html
+
+Sitemap: https://selyukov.ru/sitemap.xml

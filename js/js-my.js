@@ -6,7 +6,7 @@
         ======================================================================== -->*/
 var now = new Date();
 var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-var dob = new Date(2000, 3, 3);
+var dob = new Date(2000, 2, 3);
 var dobnow = new Date(today.getFullYear(), dob.getMonth(), dob.getDate());
 var age;
 var txt;

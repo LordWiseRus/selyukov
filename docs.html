@@ -726,6 +726,17 @@
         <script type="text/javascript" src="js/vendor/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/plugins/mobile/mobile.min.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
+		<style>
+		/* Отключаем абсолютные координаты от Isotope */
+		.filter-items-container {
+		  position: static !important;
+		  display: flex;
+		  flex-wrap: wrap;
+		}
 
+		.filter-items-container .portfolio-block {
+		  position: static !important;
+		}
+		</style>
 </body>
 </html>
